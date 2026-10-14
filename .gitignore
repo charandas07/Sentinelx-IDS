@@ -1,0 +1,52 @@
+# Environments
+venv/
+.venv/
+env/
+**/venv/
+**/.venv/
+**/env/
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python cache & testing
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+**/.pytest_cache/
+
+# Build artifacts
+dist/
+build/
+**/dist/
+**/build/
+
+# Environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+backend/data/*.db
+
+# Logs
+*.log
+**/*.log
+
+# Binaries / Installers
+*.exe
+npcap-installer.exe
+
+# OS generated files
+.DS_Store
+Thumbs.db
